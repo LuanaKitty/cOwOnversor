@@ -16,6 +16,7 @@ pub fn conversion() {
     let _ = io::stdin().read_line(&mut unit2);
     let unit2: u8 = unit2.trim().parse().unwrap_or(0);
 
+    // convert to meters
     match unit1 {
         1 => input *= 1.0,
         2 => input *= 1000.0,
@@ -28,6 +29,8 @@ pub fn conversion() {
             return;
         }
     }
+
+    // convert from meter to desired unit
     match unit2 {
         1 => input *= 1.0,
         2 => input /= 1000.0,
@@ -40,6 +43,8 @@ pub fn conversion() {
             return;
         }
     }
+
+    // print the desired unit abbreviation
     let mut unit0 = "m";
 
     match unit2 {
