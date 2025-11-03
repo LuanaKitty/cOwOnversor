@@ -2,5 +2,8 @@
 name = "conversor"
 version = "0.1.0"
 edition = "2024"
+authors = ["Luana Carvalaho <luanatrajanocarvalho@gmail.com>", "Shizuko <nkshizuko@gmail.com>"]
+description = "A simple Rust conversion project"
+license = "MIT"
 
 [dependencies]
