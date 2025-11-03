@@ -22,7 +22,7 @@ Project Features:
 ___
 
 ## Overview
-cOwOnversor is a value transformation platform using a Command Line Interface (CLI), developed by Luana Carvalho and Shizuko.
+cOwOnversor is an measurement unit conversion platform using a Command Line Interface (CLI), developed by Luana Carvalho and Shizuko Nakano.
 
 ## Contact Us
 You can contact me through my GitHub or my personal Discord contact (margarida__carvalho).
