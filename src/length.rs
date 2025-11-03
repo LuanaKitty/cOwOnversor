@@ -30,7 +30,7 @@ pub fn conversion() {
         }
     }
 
-    // convert from meter to desired unit
+    // convert from meters to desired unit
     match unit2 {
         1 => input *= 1.0,
         2 => input /= 1000.0,
